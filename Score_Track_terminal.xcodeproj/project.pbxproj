@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B65CAEF619F173B20048CB03 /* audio.m in Sources */ = {isa = PBXBuildFile; fileRef = B65CAEF519F173B20048CB03 /* audio.m */; };
+		B65CAEF919F174440048CB03 /* listener.m in Sources */ = {isa = PBXBuildFile; fileRef = B65CAEF819F174440048CB03 /* listener.m */; };
 		B68CDD4F19F15DC400F78428 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B68CDD4E19F15DC400F78428 /* main.m */; };
-		B68CDD5819F15EFA00F78428 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = B68CDD5719F15EFA00F78428 /* test.m */; };
+		B68CDD5819F15EFA00F78428 /* mike_in.m in Sources */ = {isa = PBXBuildFile; fileRef = B68CDD5719F15EFA00F78428 /* mike_in.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B65CAEF419F1717B0048CB03 /* mike_in.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mike_in.h; sourceTree = "<group>"; };
+		B65CAEF519F173B20048CB03 /* audio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = audio.m; sourceTree = "<group>"; };
+		B65CAEF719F173BD0048CB03 /* audio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audio.h; sourceTree = "<group>"; };
+		B65CAEF819F174440048CB03 /* listener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = listener.m; sourceTree = "<group>"; };
+		B65CAEFA19F1744F0048CB03 /* listener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = listener.h; sourceTree = "<group>"; };
 		B68CDD4B19F15DC400F78428 /* Score_Track_terminal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Score_Track_terminal; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68CDD4E19F15DC400F78428 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B68CDD5719F15EFA00F78428 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
+		B68CDD5719F15EFA00F78428 /* mike_in.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mike_in.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				B68CDD4E19F15DC400F78428 /* main.m */,
-				B68CDD5719F15EFA00F78428 /* test.m */,
+				B65CAEF419F1717B0048CB03 /* mike_in.h */,
+				B68CDD5719F15EFA00F78428 /* mike_in.m */,
+				B65CAEF719F173BD0048CB03 /* audio.h */,
+				B65CAEF519F173B20048CB03 /* audio.m */,
+				B65CAEFA19F1744F0048CB03 /* listener.h */,
+				B65CAEF819F174440048CB03 /* listener.m */,
 			);
 			path = Score_Track_terminal;
 			sourceTree = "<group>";
@@ -121,8 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65CAEF619F173B20048CB03 /* audio.m in Sources */,
 				B68CDD4F19F15DC400F78428 /* main.m in Sources */,
-				B68CDD5819F15EFA00F78428 /* test.m in Sources */,
+				B68CDD5819F15EFA00F78428 /* mike_in.m in Sources */,
+				B65CAEF919F174440048CB03 /* listener.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +250,7 @@
 				B68CDD5419F15DC400F78428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
