@@ -6,9 +6,5 @@
 //  Copyright (c) 2014年 Yuki Kamada. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-int test_test(void)
-{
-    return 0;
-}
 
+#import "mike_in.h"

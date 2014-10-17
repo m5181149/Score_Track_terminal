@@ -8,12 +8,14 @@
 
 
 #import <Foundation/Foundation.h>
-//#import <UIKit/UIKit.h>
-#import <AVFoundation/AVFoundation.h>
-#import <AudioToolbox/AudioToolbox.h>
-@import OpenAL;
+//#import <AVFoundation/AVFoundation.h>
+//#import <AudioToolbox/AudioToolbox.h>
+//#import <CoreAudio/CoreAudio.h>
+//#import <CoreAudioKit/CoreAudioKit.h>
+//@import OpenAL;
 
-
+#import "mike_in.h"
+#import "audio.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
