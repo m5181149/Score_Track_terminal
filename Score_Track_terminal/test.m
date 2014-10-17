@@ -7,3 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
+int test_test(void)
+{
+    return 0;
+}
+
